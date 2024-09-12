@@ -47,7 +47,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	# Alternate Codenames
 	export TARGET_DEVICE_ALT="dandelion,angelica,angelican,angelicain,cattail,blossom"
 	export FOX_TARGET_DEVICES="dandelion,angelica,angelican,angelicain,cattail,blossom"
-
+ 
+	export NOT_ORANGEFOX=0
 	export OF_USE_GREEN_LED=0
 	export OF_HIDE_NOTCH=1
 	export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
@@ -69,8 +70,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_DELETE_MAGISK_ADDON=1
 
 	# R12.1 Settings
-	export FOX_VERSION="R12.1_3"
-	export FOX_BUILD_TYPE="Beta"
+	export FOX_VERSION="R12.1_4"
+	export FOX_BUILD_TYPE="Stable"
 	export OF_MAINTAINER="VertekPlus"
 
 	# OTA
