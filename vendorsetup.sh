@@ -70,7 +70,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_DELETE_MAGISK_ADDON=1
 
 	# R12.1 Settings
-	export FOX_VERSION="R12.1_5"
+	export FOX_VERSION="R12.1_5.1"
 	export FOX_BUILD_TYPE="Stable"
 	export OF_MAINTAINER="VertekPlus"
 
